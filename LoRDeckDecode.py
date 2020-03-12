@@ -43,11 +43,6 @@ def main():
             #Individual cards in faction
             for y in range(num_of_faction):
                 card = varInts(byte_list)
-
-                #Set, Faction, Card
-                s = str(set_num).zfill(2)
-                f = factions[faction]
-                c = str(card).zfill(3)
                 
                 #Convert card to seven character Runeterra card code
                 card = str(set_num).zfill(2) + factions[faction] + str(card).zfill(3)
