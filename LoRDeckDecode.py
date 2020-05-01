@@ -10,7 +10,7 @@ def main():
     deckcode = "CEBAIAIEBAITINQHAECQWFRGFMYDCNICAEAQIDICAECQOKABAEAQKOA"
 
     #Faction identifiers
-    factions = ["DE", "FR", "IO", "NX", "PZ", "SI"]
+    factions = ["DE", "FR", "IO", "NX", "PZ", "SI", "BW"]
     
     #Load json data for cards
     data = loadCards()
